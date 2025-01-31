@@ -1,40 +1,18 @@
-import { View, Text, TextInput } from "react-native";
+import { View, Text } from "react-native";
 import { styles } from "./styles";
-import { Feather } from "@expo/vector-icons"
-export function FormStepOne(){
+import { Input } from "@/src/compoments/Input";
+export function FormStepOne2(){
     return(
         <View style={styles.container}>
+
             <Text style={styles.title}>
-                Inputs ? Start
+                Inputs ? Components
             </Text>
 
-            <View style={{  flexDirection: 'row', padding: 16,
-                backgroundColor: 'white', alignItems: 'center',
-                marginVertical: 10, borderEndEndRadius: 10,
-                borderStartEndRadius: 10,
-            }}>
-                <Feather name="user" size={28} color="red" />
-                <TextInput />
-            </View>
-
-            <View style={{  flexDirection: 'row', padding: 16,
-                backgroundColor: 'white', alignItems: 'center',
-                marginVertical: 10, borderEndEndRadius: 10,
-                borderStartEndRadius: 10,
-            }}>
-                <Feather name="mail" size={28} color="red" />
-                <TextInput />
-            </View>
-
-            <View style={{  flexDirection: 'row', padding: 16,
-                backgroundColor: 'white', alignItems: 'center',
-                marginVertical: 10, borderEndEndRadius: 10,
-                borderStartEndRadius: 10,
-            }}>
-                <Feather name="key" size={28} color="red" />
-                <TextInput />
-            </View>
-
+            <Input icon="user" size={28} />
+            <Input icon="mail" size={28} />
+            <Input icon="key"  size={28} />
+            
         </View>
     )
 }

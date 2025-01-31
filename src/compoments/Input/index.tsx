@@ -11,11 +11,9 @@ type Props = {
 export function Input({ icon, size } : Props ) {
     return(
         <View style={ styles.group } >
-            
             <View style={styles.icon}>
                 <Feather name={icon} size={size} color="red" />
             </View>
-
             <TextInput style={ styles.control }  />
             
         </View>
