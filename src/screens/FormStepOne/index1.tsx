@@ -1,7 +1,7 @@
 import { View, Text, TextInput } from "react-native";
 import { styles } from "./styles";
 import { Feather } from "@expo/vector-icons"
-export function FormStepOne(){
+export function FormStepOne2(){
     return(
         <View style={styles.container}>
             <Text style={styles.title}>

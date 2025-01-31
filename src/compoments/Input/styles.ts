@@ -19,8 +19,8 @@ export const styles = StyleSheet.create({
         flex: 1,
         padding: 10,
         paddingHorizontal: 16,
-        fontSize: 16,
-        outlineColor: 'transparent',
+        fontSize: 18,
+        outlineColor: '#FFFFFF',
     },
     icon:{
         height: 56,
