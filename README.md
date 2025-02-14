@@ -11,8 +11,13 @@
 npm install react-hook-form
 ```
 
+* Dependencias
+```
+npx expo install
+```
+
 * References
-``` Expo React From
+``` Expo React From  
 https://www.youtube.com/watch?v=R15wAlcmD_A&t=1497s
 ```
 

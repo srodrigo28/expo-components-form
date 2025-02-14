@@ -30,5 +30,11 @@ export const styles = StyleSheet.create({
         overflow: "hidden",
         borderRightWidth: 5,
         borderRightColor: "#CCC"
+    }, 
+    error: {
+        fontSize: 14,
+        marginTop: -10,
+        marginBottom: 10,
+        color: '#DC1637'
     }
 })
